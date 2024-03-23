@@ -6,7 +6,7 @@ angular.module('op').factory('Logic', [
 	function($rootScope, $http, $compile) {
 		//load openings
 		var openings;
-		$http.get('openings.json').success(function(response) {
+		$http.get('opex/openings.json').success(function(response) {
 			openings = response;
 			putAlternatives();
 		});
@@ -44,7 +44,7 @@ angular.module('op').factory('Logic', [
 		function putAlternativePiece(color, piece, square, title, san, castle) {
 			var elem = $('<img/>')
 				.attr({
-					'src': 'img/chesspieces/wikipedia/' + color + piece + '.png',
+					'src': 'opex/img/chesspieces/wikipedia/' + color + piece + '.png',
 					'height': '100%',
 					'width': '100%',
 					'ng-click': 'Logic.move("' + san + '")',
