@@ -15,16 +15,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ebemunk/opex.git"
+    "url": "git+https://github.com/ganeshapp/opex.git"
   },
   "keywords": [
     "chess",
     "openings"
   ],
-  "author": "ebemunk <ebemunk@gmail.com>",
+  "author": "gapp <sagaro@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ebemunk/opex/issues"
+    "url": "https://github.com/ganeshapp/opex/issues"
   },
-  "homepage": "https://github.com/ebemunk/opex#readme"
+  "homepage": "https://github.com/ganeshapp/opex#readme"
 }
